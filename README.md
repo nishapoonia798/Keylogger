@@ -1,5 +1,5 @@
-A lightweight and efficient keylogger built in C++ for Windows environments to track the pulse of the keyboard.s
-🖥️ Keylogger in C++
+                                                🖥️ Keylogger in C++
+
 📌 Description
 A lightweight C++ keylogger that captures keystrokes on a Windows machine and logs them to a file. The program uses GetAsyncKeyState() and handles both regular and special keys, including shift-modified characters.
 
@@ -26,6 +26,7 @@ A lightweight C++ keylogger that captures keystrokes on a Windows machine and lo
     2. Run in administrator mode (for full key capture)
 
 🛠️ How to Run
+
     ✅ Step 1: create a keylog.txt file in the same folder
     ✅ Step 2: Run the code
     ✅ Step 3: Do Normal Typing (Open Notepad, browser, or any app)
