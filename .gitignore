@@ -1,0 +1,4 @@
+# Compiled binary
+*.exe
+*.obj
+*.out
