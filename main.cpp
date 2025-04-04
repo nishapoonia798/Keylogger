@@ -170,42 +170,6 @@ void logKeystroke(int key, const string &file)
         }
     }
 
-    // else {
-    //     switch (key) {
-    //         case VK_SPACE:
-    //             logFile << " ";
-    //             break;
-    //         case VK_RETURN:
-    //             logFile << "[ENTER]\n";
-    //             break;
-    //         case VK_BACK:
-    //             logFile << "[BACKSPACE]";
-    //             break;
-    //         case VK_TAB:
-    //             logFile << "[TAB]";
-    //             break;
-    //         case VK_SHIFT:
-    //         case VK_LSHIFT:
-    //         case VK_RSHIFT:
-    //             //logFile << "[SHIFT]";
-    //             break;
-    //         case VK_CONTROL:
-    //         case VK_LCONTROL:
-    //         case VK_RCONTROL:
-    //             //logFile << "[CTRL]";
-    //             break;
-    //         case VK_ESCAPE:
-    //             //logFile << "[ESC]";
-    //             break;
-    //         case VK_CAPITAL:
-    //             break; // ignore CAPS LOCK
-    //         default:
-    //             // Optional: uncomment if you want to log other special keys
-    //             // logFile << "[" << key << "]";
-    //             break;
-    //     }
-    // }
-
     logFile.close();
 }
 
