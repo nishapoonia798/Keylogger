@@ -27,8 +27,10 @@ A lightweight C++ keylogger that captures keystrokes on a Windows machine and lo
 
 🛠️ How to Run
 
-    ✅ Step 1: create a keylog.txt file in the same folder
-    ✅ Step 2: Run the code
+    ✅ Step 1: Compile the code 
+        g++ keylogger.cpp -o keylogger.exe
+    ✅ Step 2: Run
+        keylogger.exes
     ✅ Step 3: Do Normal Typing (Open Notepad, browser, or any app)
     ✅ Step 4: Press ESC key to stop logging.
     ✅ Step 5: View Output(Open keylog.txt to check your output)
